@@ -17,6 +17,8 @@ async function gameSetup() {
         },
      
     });
+
+    k.loadSprite("level-1", "./level-1.png");
 }
 
 gameSetup();
