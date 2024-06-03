@@ -84,7 +84,7 @@ import {
     });
   
     const inhaleEffect = k.add([
-      k.sprite("assets", { anim: "kirbIdle" }),
+      k.sprite("assets", { anim: "kirbInhaleEffect" }),
       k.pos(),
       k.scale(scale),
       k.opacity(0),
