@@ -26,7 +26,6 @@ async function gameSetup() {
     },
   });
   k.loadSprite("level-1", "./level-1.png");
-  k.loadSprite("level-2", "./level-2.png");
 
   k.add([k.rect(k.width(), k.height()), k.color(0, 0, 0), k.fixed()]);
 
@@ -37,7 +36,7 @@ async function gameSetup() {
 
   k.scene("level-1", async () => {
     globalGameState.setCurrentScene("level-1");
-    globalGameState.setNextScene("level-2");
+    globalGameState.setNextScene("level-1");
     k.setGravity(2100);
     k.add([
       k.rect(k.width(), k.height()),
